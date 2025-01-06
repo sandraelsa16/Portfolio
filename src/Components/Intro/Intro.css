@@ -1,0 +1,77 @@
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro img {
+    border-radius: 50%;
+    margin-top: 100px;
+ }
+
+ .intro h1{
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+ }
+
+ .intro h1 span {
+    background: linear-gradient(90deg, rgb(88, 77, 190) 20%, rgba(60,255,248,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .intro p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+ }
+
+ .intro-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+ }
+
+ .intro-connect {
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(52,40,152,1) 20%, rgba(60,255,248,1) 100%);
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+ .resume {
+    padding: 15px 35px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 18px;
+  
+ }
+
+ .intro-connect:hover{
+    border:2px ridge white; 
+ }
+
+ .resume:hover { 
+    border-radius: 50px;
+    padding: 15px 35px;
+    border: 2px solid rgba(60,255,248,1);
+ }
+
+
+ .resume span {
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+  }
+ 

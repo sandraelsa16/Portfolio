@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer h2 {
+    font-size: 28px;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(52,40,152,1) 20%, rgba(60,255,248,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.logos i {
+    font-size: 35px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+}
