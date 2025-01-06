@@ -3,7 +3,7 @@ import css from "./CSS.png";
 import bootstrap from "./Bootstrap.png";
 import javascript from "./JavaScript.webp";
 import react from "./React.png";
-import node from "./NodeJS.png";
+import node from "./NodeJs.png";
 import express from "./ExpressJS.png";
 import python from './Python.png'
 import powerbi from './PowerBI.png'
